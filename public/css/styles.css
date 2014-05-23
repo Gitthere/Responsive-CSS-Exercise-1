@@ -1,14 +1,32 @@
+header {
+  background-color: red;
+}
 
-body {
-  text-decoration: none;
+header > .row {
+  background-color: green;
+}
+
+#content {
+  background-color: orange;
+}
+
+#content > .row {
+  background-color: indigo;
+}
+
+#footer {
+  background-color: yellow;
+}
+
+#footer > .row {
+  background-color: blue;
+}
+
+ul {
+  list-style: none;
 }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
-  
-#small {
-
-}
-
 
 
 } 
@@ -17,9 +35,6 @@ body {
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
-#medium {
-
-}
 
 
 
@@ -28,11 +43,22 @@ body {
 
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) { 
+  header {
+    padding: 40px;
+    background-color: black;
+    background-image: url(/images/border.png);
+    background-position: top center;
+    background-repeat: repeat-x;
+  }
   
-#large {
+  header > .row nav.top-bar ul.title-area li.name a h1 {
+    font-size: 40px;
+    word-spacing: 15px;
+  }
 
-}
-
-
+  header > .row nav.top-bar ul.title-area li.name a h1 span {
+    display: block;
+    position: absolute;
+  }
 
   }
