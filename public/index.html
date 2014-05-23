@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive-CSS-Exercise-1</title>
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/vendor/modernizr.js"></script>
+
+  </head>
+
+  <body>
+    
+    <!-- row 1 logo and nav -->
+    <div class="row">  
+
+      <nav class="top-bar" data-topbar>
+      
+      <ul class="title-area">
+    
+        <li class="name">
+
+            <a href="#">
+
+              <img src="/images/logo.png" alt="flappy logo" />
+
+              <h1>
+                  <span id="flappy">Flappy</span>
+                  <span id="App">App</span>
+               </h1>
+                
+            </a>
+        
+        </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  
+      </ul>
+
+      <section class="top-bar-section">
+    <!-- Right Nav Section -->
+        <ul class="right">     
+          <li class="active"><a href="#">About</a></li>
+          <li id="specs" class="active"><a href="#">Specs</a></li>
+          <li class="active"><a href="#">Pricing</a></li>
+          <li class="active"><a href="#">Contact</a></li>
+          <li class="active"><a href="#">Setup</a></li>         
+        </ul>
+       
+      </section>
+
+      </nav>
+
+    </div><!-- end div class row -->
+
+    <div id="content"><!-- 2nd div scenery, features, p-->
+      
+      <div class="row">
+        
+        <div class="row">
+
+          <div class="large-9 medium-12 small-12 columns">
+            
+            <div id="scenery">
+              
+              <!-- img to be set as background -->
+
+            </div>
+          
+          <!-- end div class large-9 -->
+          </div>
+
+          <div class="large-3 medium-12 small-12 colums">
+            
+            <div class="features">
+              
+               <ul>
+                <li>23<span>Different</span>Modes</li>
+                <li>500<span>Options</span></li>
+                <li>Over<span>9000</span>Points</li>
+                <li>2X<span>The Flappiness of V1</span></li>
+              </ul>
+    
+            <!-- end div class features -->
+            </div>
+          
+          <!-- end div class large-3 -->
+          </div>
+        
+        <!-- end div class row -->
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, molestiae, vel, laborum, dolorem atque quod architecto ipsum est perspiciatis illum expedita magnam praesentium minus ratione assumenda commodi impedit ducimus non.</p>
+
+      <!-- end div class row -->
+      </div>
+
+    <!-- end div id content -->
+    </div>
+    
+    <div id="footer">
+    
+      <div class="row">
+        
+          <ul id="one" class="large-4 medium-4 small-6 columns">
+            <li class="active"><a href="#">About</a></li>
+            <li class="active"><a href="#">Specs</a></li>
+            <li class="active"><a href="#">Pricing</a></li>
+            <li class="active"><a href="#">Contact</a></li>
+            <li class="active"><a href="#">Sign Up</a></li>            
+          </ul>
+
+          <ul id="two" class="large-4 medium-4 hide-for-small">
+            <li class="active"><a href="#">Commercial Licenses</a></li>
+            <li class="active"><a href="#">Education</a></li>
+            <li class="active"><a href="#">Case Studies</a></li>
+            <li class="active"><a href="#">Developer Tools</a></li>
+            <li class="active"><a href="#">Documentation</a></li>       
+          </ul>
+
+          <ul id="three" class="large-4 medium-4 small-6">           
+            <li class="active"><a href="#">Tutorials</a></li>
+            <li class="active"><a href="#">Events</a></li>
+            <li class="active"><a href="#">Blog</a></li>
+            <li class="active"><a href="#">Social Media</a></li>
+            <li class="active"><a href="#">Partners</a></li>
+          </ul>
+
+          <p id="copyright"> @&2014 flappy inc.</p>
+
+      <!-- end div row -->
+      </div>
+
+    <!-- end div footer -->
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+
+</html>

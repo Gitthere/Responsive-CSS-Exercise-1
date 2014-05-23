@@ -1,0 +1,38 @@
+
+body {
+  text-decoration: none;
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+  
+#small {
+
+}
+
+
+
+} 
+
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+#medium {
+
+}
+
+
+
+} 
+
+
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) { 
+  
+#large {
+
+}
+
+
+
+  }
