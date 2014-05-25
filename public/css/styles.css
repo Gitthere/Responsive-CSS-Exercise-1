@@ -152,7 +152,6 @@
     text-transform: uppercase;
     letter-spacing: 2.5px;
     border-top: 1px solid #149B99;
-    height: 200px;
   }
   
   #content .row .features li {
@@ -168,11 +167,12 @@
     color: #1ACAC8;
   }
 
-#footer {
+  #footer {
     background-color: #2A2C32;
     background-image: url(/images/border.png);
     background-position: top center;
     background-repeat: repeat-x;
+    height: 300px;
   }
   
   #footer .row .row {
@@ -181,20 +181,25 @@
 
   ul {
     list-style: none;
-    line-height: 2.2;
-  } 
-   ul li.active a {
-    color: #1ACAC8;
-   }
-  
-   #footer .row #copyright {
-    text-align: center;
-    color: white;
     text-transform: uppercase;
-    font-size: 12px;
-   }
+    font-size: 15px;
+  } 
+  ul li.active a {
+    color: #1ACAC8;
+  }
+  
+  #footer .row #copyright {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  }
+  
+  #footer .row .large-12.columns {
+    padding-bottom: 5px;
+  }
 
-   #footer .row .large-12.columns p {
+  #footer .row .large-12.columns p {
     font-weight: 400;
   }
 
