@@ -3,7 +3,192 @@
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
+  header {
+    height: 80px;
+    background-color: black;
+    background-image: url(/images/border.png);
+    background-position: top center;
+    background-repeat: repeat-x;
+  }
+  
+  header > .row nav.top-bar {
+    height: 120px;
+    background-color: transparent;
+  }
+  
+  header > .row nav.top-bar ul.title-area {
+    background-color: transparent;
+    height: 120px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name {
+    height: 120px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a {
+    background-color: transparent;
+    height: 120px;
+    width: 500px;
+    display: block;
+  }
 
+  header > .row nav.top-bar ul.title-area li.name a img {
+    position: absolute;
+    margin-top: 15px;
+    height: 55px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 {
+    font-size: 20px;
+    word-spacing: 15px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 130px;
+    line-height: 20px;
+    widows: 300px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span {
+    color: #1ACAC8;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span#flappy {
+    color: #1ACAC8;
+    display: block;
+    }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span#app {
+    color: white;
+    display: block;
+  }
+  
+  header > .row nav.top-bar .top-bar-section ul.right {
+    height: 80px;
+    width: 420px;
+    display: inline;
+    margin-top: 40px;
+    background-color: transparent;
+  
+  }
+  
+  header > .row nav.top-bar .top-bar-section ul.right li a {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1ACAC8;
+    background-color: transparent;
+  }
+  
+  /*not working when hover*/
+  header > .row nav.top-bar .top-bar-section ul.right li a:hover {
+    color: white;
+  }
+  
+  /*meant to shorten border on left and right to make flush under
+  but not working*/
+  header > .row nav.top-bar .top-bar-section ul.right li#about a {
+    margin-left: none;
+  }
+
+  #content {
+    background-color: white; 
+    margin: 0px;
+  }
+  #content .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: none;
+  }
+
+  #content .row  #scenery {
+    height: 200px;
+    background-image: url('/images/scenery.png');
+  }
+
+  #content .row .large-9.medium-12.small-12.columns {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #content .row .large-3.medium-12.small-12.columns {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  ul {
+  list-style-type: none;
+  margin-left: 0px;
+  }
+  .row p#paragraph {
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 10px 10px;
+  }
+  
+  #content .row .features {
+    background: #1ACAC8;
+    color: black;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    border-top: 1px solid #149B99;
+  }
+  
+  #content .row .features li {
+    color: black;
+    padding: 7px;
+    border-top: none;
+    border: 1px solid gray;
+    font-size: 11px;
+  }
+  
+  #content .row .features ul #features_head {
+    background-color: black;
+    color: #1ACAC8;
+  }
+
+  #footer {
+    background-color: #2A2C32;
+    background-image: url(/images/border.png);
+    background-position: top center;
+    background-repeat: repeat-x;
+    height: 300px;
+  }
+  
+  #footer .row .row {
+    margin-top: 35px;
+  }
+
+  ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 15px;
+  } 
+  ul li.active a {
+    color: #1ACAC8;
+  }
+  
+  #footer .row #copyright {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  }
+  
+  #footer .row .large-12.columns {
+    padding-bottom: 5px;
+  }
+
+  #footer .row .large-12.columns p {
+    font-weight: 400;
+  }
+
+
+ 
 
 } 
 
