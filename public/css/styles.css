@@ -1,202 +1,6 @@
-body {
-  background: #25262C;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  color: #25262C;
-}
-
-header {
-    height: 143px;
-    background-color: black;
-    background-image: url(/images/border.png);
-    background-position: top center;
-    background-repeat: repeat-x;
-}
-
-header > .row {
-  height: 143px;
-}
-
-header > .row nav.top-bar {
-  height: 143px;
-  background-color: transparent;
-}
-
-header > .row nav.top-bar ul.title-area {
-  background-color: transparent;
-  height: 143px;
-  width: 500px;
-}
-
-header > .row nav.top-bar ul.title-area li.name {
-  height: 143px;
-}
-
-header > .row nav.top-bar ul.title-area li.name a {
-  background-color: transparent;
-  height: 143px;
-  width: 500px;
-  display: block;
-}
-
-header > .row nav.top-bar ul.title-area li.name a img {
-  position: absolute;
-  margin-top: 35px;
-  margin-left: 170px;
-}
-
-header > .row nav.top-bar ul.title-area li.name a h1 {
-  font-size: 40px;
-  word-spacing: 15px;
-  position: absolute;
-  margin-top: 50px;
-}
-
-header > .row nav.top-bar ul.title-area li.name a h1 span {
-  color: #1ACAC8;
-  height: 143px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
-header > .row nav.top-bar ul.title-area li.name a h1 span#app {
-margin-left: 70px;
-}
-
-header > .row nav.top-bar .top-bar-section ul.right {
-  height: 80px;
-  width: 450px;
-  display: inline;
-  margin-top: 50px;
-  background-color: transparent;
-
-}
-
-header > .row nav.top-bar .top-bar-section ul.right li a {
-  font-size: 11px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #1ACAC8;
-  color: #1ACAC8;
-  background-color: transparent;
-}
-
-/*not working when hover*/
-header > .row nav.top-bar .top-bar-section ul.right li a:hover {
-  color: white;
-}
-
-/*meant to shorten border on left and right to make flush under
-but not working*/
-header > .row nav.top-bar .top-bar-section ul.right li#about a {
-  margin-left: none;
-}
-
-
-#content .row  #scenery {
-  height: 200px;
-  background-image: url('/images/scenery.png');
-  margin-top
-  : 40px;
-}
-
-ul .menu {
-  margin-left: -20px;
-
-}
-.row p#paragraph {
-  margin-left: 10px;
-  font-size: 22px;
-  line-height: 1.3;
-  font-weight: 600;
-}
-
-#content .row .features {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  background: #1ACAC8;
-  color: black;
-  line-height: 32px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  border-top: 1px solid #149B99;
-  height: 200px;
-  padding-left: 2px;
-}
-
-#content .row .features li {
-  color: black;
-  padding: 7px;
-  border-top: none;
-  border: 1px solid gray;
-  font-size: 11px;
-}
-
-#content .row .features ul #features_head {
-  background-color: black;
-  color: #1ACAC8;
-}
 
 
 
-
-header > .row {
-  background-color: transparent;
-}
-
-#content {
-  background-color: white; 
-  }
-
-#content > .row {
-  
-}
-
-#footer {
-  background-color: black;
-  background-image: url(/images/border.png);
-  background-position: top center;
-  background-repeat: repeat-x;
-}
-
-#footer .row .row {
-  margin-top: 35px;
-}
-
-/*#footer .row .row .large-4.medium-4.small-6.columns,
-#footer .row .row .large-4.medium-4.hide-for-small.columns {
-  border-left: 1px solid #1ACAC8;
-  height: 150px;
-  
-}*/
- li.line {
-  width: 2px;
-  height: 160px;
-  background-color: #1ACAC8;
-  float: left;
-  margin-right: 20px;
-  margin-top: 12px;
- }
-
- ul li.active a {
-  color: #1ACAC8;
- }
-
- #footer .row #copyright {
-  background-color: #1ACAC8;
-  text-align: center;
-  color: black;
-  text-transform: uppercase;
-  font-size: 13px;
-  padding-top: 3px;
-  padding-bottom: 3px;
- }
-
-ul {
-  list-style: none;
-  line-height: 2.2;
-}
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
 
@@ -204,18 +8,314 @@ ul {
 } 
 
 
+
+
+
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  header {
+    height: 120px;
+    background-color: black;
+    background-image: url(/images/border.png);
+    background-position: top center;
+    background-repeat: repeat-x;
+  }
 
+  header > .row {
+    height: 120px;
+  }
+  
+  header > .row nav.top-bar {
+    height: 120px;
+    background-color: transparent;
+  }
+  
+  header > .row nav.top-bar ul.title-area {
+    background-color: transparent;
+    height: 120px;
+    width: 500px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name {
+    height: 120px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a {
+    background-color: transparent;
+    height: 120px;
+    width: 500px;
+    display: block;
+  }
 
-
-
+  header > .row nav.top-bar ul.title-area li.name a img {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 50px;
+    height: 50px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 {
+    font-size: 20px;
+    word-spacing: 15px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 130px;
+    line-height: 20px;
+    widows: 300px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span {
+    color: #1ACAC8;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span#flappy {
+    color: #1ACAC8;
+    display: block;
+    }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span#app {
+    color: white;
+    display: block;
+  }
+  
+  header > .row nav.top-bar .top-bar-section ul.right {
+    height: 80px;
+    width: 450px;
+    display: inline;
+    margin-top: 50px;
+    background-color: transparent;
+  
+  }
+  
+  header > .row nav.top-bar .top-bar-section ul.right li a {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1ACAC8;
+    color: #1ACAC8;
+    background-color: transparent;
+  }
+  
+  /*not working when hover*/
+  header > .row nav.top-bar .top-bar-section ul.right li a:hover {
+    color: white;
+  }
+  
+  /*meant to shorten border on left and right to make flush under
+  but not working*/
+  header > .row nav.top-bar .top-bar-section ul.right li#about a {
+    margin-left: none;
+  }
+ 
 } 
-
+  
+  
+  
+  
 
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) { 
-  
-
-
+  body {
+  background: #25262C;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #25262C;
   }
+  
+  header {
+      height: 143px;
+      background-color: black;
+      background-image: url(/images/border.png);
+      background-position: top center;
+      background-repeat: repeat-x;
+  }
+  
+  header > .row {
+    height: 143px;
+  }
+  
+  header > .row nav.top-bar {
+    height: 143px;
+    background-color: transparent;
+  }
+  
+  header > .row nav.top-bar ul.title-area {
+    background-color: transparent;
+    height: 143px;
+    width: 500px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name {
+    height: 143px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a {
+    background-color: transparent;
+    height: 143px;
+    width: 500px;
+    display: block;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a img {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 170px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 {
+    font-size: 40px;
+    word-spacing: 15px;
+    position: absolute;
+    margin-top: 50px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span {
+    color: #1ACAC8;
+    height: 143px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  header > .row nav.top-bar ul.title-area li.name a h1 span#app {
+  margin-left: 70px;
+  }
+  
+  header > .row nav.top-bar .top-bar-section ul.right {
+    height: 80px;
+    width: 450px;
+    display: inline;
+    margin-top: 50px;
+    background-color: transparent;
+  
+  }
+  
+  header > .row nav.top-bar .top-bar-section ul.right li a {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1ACAC8;
+    color: #1ACAC8;
+    background-color: transparent;
+  }
+  
+  /*not working when hover*/
+  header > .row nav.top-bar .top-bar-section ul.right li a:hover {
+    color: white;
+  }
+  
+  /*meant to shorten border on left and right to make flush under
+  but not working*/
+  header > .row nav.top-bar .top-bar-section ul.right li#about a {
+    margin-left: none;
+  }
+  
+  
+  #content .row  #scenery {
+    height: 200px;
+    background-image: url('/images/scenery.png');
+    margin-top
+    : 40px;
+  }
+  
+  ul .menu {
+    margin-left: -20px;
+  
+  }
+  .row p#paragraph {
+    margin-left: 10px;
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  
+  #content .row .features {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #1ACAC8;
+    color: black;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    border-top: 1px solid #149B99;
+    height: 200px;
+    padding-left: 2px;
+  }
+  
+  #content .row .features li {
+    color: black;
+    padding: 7px;
+    border-top: none;
+    border: 1px solid gray;
+    font-size: 11px;
+  }
+  
+  #content .row .features ul #features_head {
+    background-color: black;
+    color: #1ACAC8;
+  }
+  
+  
+  
+  
+  header > .row {
+    background-color: transparent;
+  }
+  
+  #content {
+    background-color: white; 
+    }
+  
+  #content > .row {
+    
+  }
+  
+  #footer {
+    background-color: black;
+    background-image: url(/images/border.png);
+    background-position: top center;
+    background-repeat: repeat-x;
+  }
+  
+  #footer .row .row {
+    margin-top: 35px;
+  }
+  
+  /*#footer .row .row .large-4.medium-4.small-6.columns,
+  #footer .row .row .large-4.medium-4.hide-for-small.columns {
+    border-left: 1px solid #1ACAC8;
+    height: 150px;
+    
+  }*/
+   li.line {
+    width: 2px;
+    height: 160px;
+    background-color: #1ACAC8;
+    float: left;
+    margin-right: 20px;
+    margin-top: 12px;
+   }
+  
+   ul li.active a {
+    color: #1ACAC8;
+   }
+  
+   #footer .row #copyright {
+    background-color: #1ACAC8;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+   }
+  
+  ul {
+    list-style: none;
+    line-height: 2.2;
+  } 
+
+
+}
