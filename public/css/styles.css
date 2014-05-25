@@ -12,22 +12,22 @@
   }
   
   header > .row nav.top-bar {
-    height: 120px;
+    height: 80px;
     background-color: transparent;
   }
   
   header > .row nav.top-bar ul.title-area {
     background-color: transparent;
-    height: 120px;
+    height: 80px;
   }
   
   header > .row nav.top-bar ul.title-area li.name {
-    height: 120px;
+    height: 80px;
   }
   
   header > .row nav.top-bar ul.title-area li.name a {
     background-color: transparent;
-    height: 120px;
+    
     width: 500px;
     display: block;
   }
@@ -42,10 +42,11 @@
     font-size: 20px;
     word-spacing: 15px;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 130px;
+    margin-top: 30px;
+    margin-left: 90px;
     line-height: 20px;
     widows: 300px;
+    width: 180px;
   }
   
   header > .row nav.top-bar ul.title-area li.name a h1 span {
@@ -62,6 +63,21 @@
   header > .row nav.top-bar ul.title-area li.name a h1 span#app {
     color: white;
     display: block;
+    margin-top: -20px;
+    margin-left: 100px;
+  }
+
+  .top-bar .title-area .toggle-topbar.menu-icon a {
+    content: "";
+position: absolute;
+right: 0;
+display: block;
+width: 16px;
+top: 0;
+height: 0;
+-webkit-box-shadow: 1px 10px 1px 1px #202020, 1px 16px 1px 1px #202020, 1px 22px 1px 1px #202020;
+box-shadow: 0 10px 0 1px #202020, 0 16px 0 1px #202020, 0 22px 0 1px #202020;
+    
   }
   
   header > .row nav.top-bar .top-bar-section ul.right {
@@ -399,18 +415,18 @@
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) { 
   body {
-  background: #25262C;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  color: #25262C;
+    background: #25262C;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #25262C;
   }
   
   header {
-      height: 143px;
-      background-color: black;
-      background-image: url(/images/border.png);
-      background-position: top center;
-      background-repeat: repeat-x;
+    height: 143px;
+    background-color: black;
+    background-image: url(/images/border.png);
+    background-position: top center;
+    background-repeat: repeat-x;
   }
   
   header > .row {
@@ -461,7 +477,7 @@
   }
   
   header > .row nav.top-bar ul.title-area li.name a h1 span#app {
-  margin-left: 70px;
+    margin-left: 70px;
   }
   
   header > .row nav.top-bar .top-bar-section ul.right {
