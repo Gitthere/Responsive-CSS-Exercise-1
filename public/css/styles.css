@@ -126,7 +126,6 @@ ul .menu {
 }
 
 #content .row .features li {
-  
   color: black;
   padding: 7px;
   border-top: none;
@@ -155,12 +154,44 @@ header > .row {
 }
 
 #footer {
-  background-color: yellow;
+  background-color: black;
+  background-image: url(/images/border.png);
+  background-position: top center;
+  background-repeat: repeat-x;
 }
 
-#footer > .row {
-  background-color: blue;
+#footer .row .row {
+  margin-top: 35px;
 }
+
+/*#footer .row .row .large-4.medium-4.small-6.columns,
+#footer .row .row .large-4.medium-4.hide-for-small.columns {
+  border-left: 1px solid #1ACAC8;
+  height: 150px;
+  
+}*/
+ li.line {
+  width: 2px;
+  height: 160px;
+  background-color: #1ACAC8;
+  float: left;
+  margin-right: 20px;
+  margin-top: 12px;
+ }
+
+ ul li.active a {
+  color: #1ACAC8;
+ }
+
+ #footer .row #copyright {
+  background-color: #1ACAC8;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+ }
 
 ul {
   list-style: none;
