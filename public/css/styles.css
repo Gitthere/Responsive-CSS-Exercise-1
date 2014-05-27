@@ -68,34 +68,34 @@
   }
 
   .top-bar .title-area .toggle-topbar.menu-icon a {
-    content: "";
-position: absolute;
-right: 0;
-display: block;
-width: 16px;
-top: 0;
-height: 0;
--webkit-box-shadow: 1px 10px 1px 1px #202020, 1px 16px 1px 1px #202020, 1px 22px 1px 1px #202020;
-box-shadow: 0 10px 0 1px #202020, 0 16px 0 1px #202020, 0 22px 0 1px #202020;
-    
+  color: yellow;
+  content: "";
+  position: absolute;
+  right: 0;
+  display: block;
+  width: 16px;
+  top: 0;
+  height: 0;
+  -webkit-box-shadow: 1px 10px 1px 1px #202020, 1px 16px 1px 1px #202020, 1px 22px 1px 1px #202020;
+  box-shadow: 0 10px 0 1px #202020, 0 16px 0 1px #202020, 0 22px 0 1px #202020;
   }
   
-  header > .row nav.top-bar .top-bar-section ul.right {
+  /*header > .row nav.top-bar .top-bar-section ul.right {
     height: 80px;
     width: 420px;
     display: inline;
     margin-top: 40px;
     background-color: transparent;
   
-  }
+  }*/
   
-  header > .row nav.top-bar .top-bar-section ul.right li a {
+ /* header > .row nav.top-bar .top-bar-section ul.right li a {
     font-size: 11px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #1ACAC8;
     background-color: transparent;
-  }
+  }*/
   
   /*not working when hover*/
   header > .row nav.top-bar .top-bar-section ul.right li a:hover {
