@@ -122,6 +122,10 @@
     height: 200px;
     background-image: url('/images/scenery.png');
   }
+  
+  #content .row .row .large-12.columns {
+    margin-bottom: 20px;
+  }
 
   #content .row .large-9.medium-12.small-12.columns {
     padding-left: 0px;
@@ -135,8 +139,8 @@
 
   ul {
   list-style-type: none;
-  margin-left: 0px;
   }
+
   .row p#paragraph {
     font-size: 22px;
     line-height: 1.3;
@@ -154,6 +158,10 @@
     border-top: 1px solid #149B99;
   }
   
+  #content .row .features ul {
+    margin-left: 0px;
+  }
+
   #content .row .features li {
     color: black;
     padding: 7px;
@@ -161,10 +169,14 @@
     border: 1px solid gray;
     font-size: 11px;
   }
-  
+
   #content .row .features ul #features_head {
     background-color: black;
     color: #1ACAC8;
+  }
+
+  #content .row .features ul li.menu span {
+    color: white
   }
 
   #footer {
@@ -183,6 +195,7 @@
     list-style: none;
     text-transform: uppercase;
     font-size: 15px;
+    letter-spacing: 2px;
   } 
   ul li.active a {
     color: #1ACAC8;
@@ -193,6 +206,9 @@
   color: white;
   text-transform: uppercase;
   font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 30px;
   }
   
   #footer .row .large-12.columns {
@@ -366,6 +382,10 @@
   #content .row .features ul #features_head {
     background-color: black;
     color: #1ACAC8;
+  }
+
+  #content .row .features ul li.menu span {
+    color: white
   }
 
   #footer {
@@ -556,6 +576,10 @@
   #content .row .features ul #features_head {
     background-color: black;
     color: #1ACAC8;
+  }
+
+  #content .row .features ul li.menu span {
+    color: white
   }
   
   #footer {
