@@ -516,18 +516,29 @@
   }
   
   header > .row nav.top-bar .top-bar-section ul.right li a {
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 500px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    border-bottom: 2px solid #1ACAC8;
+    border-bottom: 3px solid #1ACAC8;
     color: #1ACAC8;
     background-color: transparent;
+    padding-left: 0px;
+    padding-right: 27px;
+  }
+
+  a#signup {
+    padding-right: 0px;
+  }
+
+  header > .row nav.top-bar .top-bar-section ul.right li#about {
+    padding-left: 0px;
   }
   
   /*not working when hover*/
   header > .row nav.top-bar .top-bar-section ul.right li a:hover {
     color: white;
-    border-bottom: 2px solid
+    border-bottom: 3px solid
   }
   
   /*meant to shorten border on left and right to make flush under
