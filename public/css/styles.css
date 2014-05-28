@@ -67,8 +67,9 @@
     margin-left: 100px;
   }
 
-  .top-bar .title-area .toggle-topbar.menu-icon a {
-  color: yellow;
+  .top-bar .title-area li.toggle-topbar.menu-icon a {
+  color: #1ACAC8;
+  background-color: black;
   content: "";
   position: absolute;
   right: 0;
@@ -76,8 +77,8 @@
   width: 16px;
   top: 0;
   height: 0;
-  -webkit-box-shadow: 1px 10px 1px 1px #202020, 1px 16px 1px 1px #202020, 1px 22px 1px 1px #202020;
-  box-shadow: 0 10px 0 1px #202020, 0 16px 0 1px #202020, 0 22px 0 1px #202020;
+  -webkit-box-shadow: 10px 10px 10px 10px #1ACAC8, 10px 16px 10px 10px #1ACAC8, 15px 22px 15px 15px #1ACAC8;
+  box-shadow: 0 10px 0 1px #1ACAC8, 0 16px 0 1px #1ACAC8, 0 22px 0 1px #1ACAC8;
   }
   
   /*header > .row nav.top-bar .top-bar-section ul.right {
@@ -112,6 +113,7 @@
     background-color: white; 
     margin: 0px;
   }
+
   #content .row {
     margin-left: 0px;
     margin-right: 0px;
@@ -135,10 +137,6 @@
   #content .row .large-3.medium-12.small-12.columns {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  ul {
-  list-style-type: none;
   }
 
   .row p#paragraph {
@@ -196,7 +194,9 @@
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 2px;
+    list-style-type: none;
   } 
+
   ul li.active a {
     color: #1ACAC8;
   }
@@ -218,9 +218,6 @@
   #footer .row .large-12.columns p {
     font-weight: 400;
   }
-
-
- 
 
 } 
 
@@ -521,6 +518,7 @@
   /*not working when hover*/
   header > .row nav.top-bar .top-bar-section ul.right li a:hover {
     color: white;
+    border-bottom: 2px solid
   }
   
   /*meant to shorten border on left and right to make flush under
@@ -616,6 +614,10 @@
     color: #1ACAC8;
    }
   
+  ul li.active a:hover {
+    color: white;
+  }
+
    #footer .row #copyright {
     background-color: #1ACAC8;
     text-align: center;
