@@ -355,7 +355,7 @@
     font-size: 22px;
     line-height: 1.3;
     font-weight: 600;
-    margin: 10px 10px;
+    margin: 10px 10px 30px;
   }
   
   #content .row .features {
@@ -404,6 +404,10 @@
   } 
   ul li.active a {
     color: #1ACAC8;
+  }
+
+  ul li.active a:hover {
+    color: white;
   }
   
   #footer .row #copyright {
@@ -543,7 +547,7 @@
   
   }
   .row p#paragraph {
-    margin-left: 10px;
+    margin: 10px 10px 30px;
     font-size: 22px;
     line-height: 1.3;
     font-weight: 600;
