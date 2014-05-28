@@ -195,10 +195,19 @@
     font-size: 15px;
     letter-spacing: 2px;
     list-style-type: none;
+    font-weight: 500;
   } 
 
   ul li.active a {
     color: #1ACAC8;
+  }
+
+  #one li a:hover {
+    color: white;
+  }
+
+  #three li a:hover {
+    color: white;
   }
   
   #footer .row #copyright {
@@ -296,7 +305,7 @@
   
   header > .row nav.top-bar .top-bar-section ul.right {
     height: 80px;
-    width: 420px;
+    width: 430px;
     display: inline;
     margin-top: 40px;
     background-color: transparent;
@@ -403,7 +412,8 @@
 
   ul li.active a {
     color: #1ACAC8;
-    font-weight: 400;
+    font-weight: 500;
+    letter-spacing: 2px;
   }
 
   ul li.active a:hover {
@@ -618,12 +628,12 @@
     
   }*/
   li.line {
-    width: 2px;
-    height: 160px;
+    width: 3px;
+    height: 155px;
     background-color: #1ACAC8;
     float: left;
     margin-right: 20px;
-    margin-top: 12px;
+    margin-top: 10px;
     margin-left: -15px;
    }
 
@@ -632,7 +642,8 @@
     line-height: 2.2;
     
   } 
-   ul li.active a {
+
+  ul li.active a {
     color: #1ACAC8;
    }
   
