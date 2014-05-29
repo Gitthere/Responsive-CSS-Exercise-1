@@ -80,36 +80,11 @@
     height: 0;
     box-shadow: 0 10px 0 1px #1ACAC8, 0 16px 0 1px #1ACAC8, 0 22px 0 1px #1ACAC8;
     }
- /*a.menu-icon span {
-   -webkit-box-shadow: 0 10px 0 1px #1ACAC8, 0 16px 0 1px #1ACAC8, 0 22px 0 1px #1ACAC8;
-    box-shadow: 0px 10px 0px 1px #1ACAC8, 0px 16px 0px 1px #1ACAC8, 0px 22px 0px 1px :;
-  }
-*/
   
-  /*header > .row nav.top-bar .top-bar-section ul.right {
-    height: 80px;
-    width: 420px;
-    display: inline;
-    margin-top: 40px;
-    background-color: transparent;
-  
-  }*/
-  
- /* header > .row nav.top-bar .top-bar-section ul.right li a {
-    font-size: 11px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #1ACAC8;
-    background-color: transparent;
-  }*/
-  
-  /*not working when hover*/
   header > .row nav.top-bar .top-bar-section ul.right li a:hover {
     color: white;
   }
   
-  /*meant to shorten border on left and right to make flush under
-  but not working*/
   header > .row nav.top-bar .top-bar-section ul.right li#about a {
     margin-left: none;
   }
@@ -325,13 +300,10 @@
     background-color: transparent;
   }
   
-  /*not working when hover*/
   header > .row nav.top-bar .top-bar-section ul.right li a:hover {
     color: white;
   }
   
-  /*meant to shorten border on left and right to make flush under
-  but not working*/
   header > .row nav.top-bar .top-bar-section ul.right li#about a {
     margin-left: none;
   }
@@ -550,14 +522,11 @@
     padding-left: 0px;
   }
   
-  /*not working when hover*/
   header > .row nav.top-bar .top-bar-section ul.right li a:hover {
     color: white;
     border-bottom: 3px solid
   }
   
-  /*meant to shorten border on left and right to make flush under
-  but not working*/
   header > .row nav.top-bar .top-bar-section ul.right li#about a {
     margin-left: none;
   }
@@ -626,12 +595,6 @@
     margin-top: 35px;
   }
   
-  /*#footer .row .row .large-4.medium-4.small-6.columns,
-  #footer .row .row .large-4.medium-4.hide-for-small.columns {
-    border-left: 1px solid #1ACAC8;
-    height: 150px;
-    
-  }*/
   li.line {
     width: 3px;
     height: 155px;
