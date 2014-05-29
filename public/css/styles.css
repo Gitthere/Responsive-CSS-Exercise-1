@@ -4,7 +4,7 @@
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
   header {
-    height: 80px;
+    height: auto;
     background-color: black;
     background-image: url(/images/border.png);
     background-position: top center;
@@ -15,6 +15,10 @@
     height: 80px;
     background-color: transparent;
   }
+
+  header > .row nav.top-bar.expanded {
+    height: auto;
+  }
   
   header > .row nav.top-bar ul.title-area {
     background-color: transparent;
@@ -23,12 +27,11 @@
   
   header > .row nav.top-bar ul.title-area li.name {
     height: 80px;
+    background-color: transparent;
   }
   
   header > .row nav.top-bar ul.title-area li.name a {
     background-color: transparent;
-    
-    width: 500px;
     display: block;
   }
 
@@ -67,19 +70,21 @@
     margin-left: 100px;
   }
 
-  .top-bar .title-area li.toggle-topbar.menu-icon a {
-  color: #1ACAC8;
-  background-color: black;
-  content: "";
-  position: absolute;
-  right: 0;
-  display: block;
-  width: 16px;
-  top: 0;
-  height: 0;
-  -webkit-box-shadow: 10px 10px 10px 10px #1ACAC8, 10px 16px 10px 10px #1ACAC8, 15px 22px 15px 15px #1ACAC8;
-  box-shadow: 0 10px 0 1px #1ACAC8, 0 16px 0 1px #1ACAC8, 0 22px 0 1px #1ACAC8;
+  .top-bar .toggle-topbar.menu-icon a::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 16px;
+    top: 0;
+    height: 0;
+    box-shadow: 0 10px 0 1px #1ACAC8, 0 16px 0 1px #1ACAC8, 0 22px 0 1px #1ACAC8;
+    }
+ /*a.menu-icon span {
+   -webkit-box-shadow: 0 10px 0 1px #1ACAC8, 0 16px 0 1px #1ACAC8, 0 22px 0 1px #1ACAC8;
+    box-shadow: 0px 10px 0px 1px #1ACAC8, 0px 16px 0px 1px #1ACAC8, 0px 22px 0px 1px :;
   }
+*/
   
   /*header > .row nav.top-bar .top-bar-section ul.right {
     height: 80px;
