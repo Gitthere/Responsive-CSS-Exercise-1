@@ -510,25 +510,21 @@
     border-bottom: 3px solid #1ACAC8;
     color: #1ACAC8;
     background-color: transparent;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  a#about {
     padding-left: 0px;
-    padding-right: 27px;
   }
 
   a#signup {
     padding-right: 0px;
   }
 
-  header > .row nav.top-bar .top-bar-section ul.right li#about {
-    padding-left: 0px;
-  }
-  
   header > .row nav.top-bar .top-bar-section ul.right li a:hover {
     color: white;
     border-bottom: 3px solid
-  }
-  
-  header > .row nav.top-bar .top-bar-section ul.right li#about a {
-    margin-left: none;
   }
   
   #content {
